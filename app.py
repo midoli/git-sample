@@ -1,3 +1,7 @@
+###
+###
+###
+
 # class User:
 #     def __init__(self, name, email, age):
 #         self.name = name
@@ -26,7 +30,7 @@ user = json.loads(userJSON)
 print(user)
 print(user['first_name'])
 
-car = {'make': 'ford', 'model': 'Ford', 'yesr':1970}
+car = {'make': 'ford', 'model': 'Ford', 'yesr': 1970}
 
 carJSON = json.dumps(car)
 
